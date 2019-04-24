@@ -1,5 +1,6 @@
 (ns giggin.components.gigs
-  (:require [giggin.state :as state]))
+  (:require [giggin.state :as state]
+            [giggin.helpers :refer [format-price]]))
 
 (defn gigs
   []
